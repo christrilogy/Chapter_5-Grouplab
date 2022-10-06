@@ -1,0 +1,78 @@
+/*
+	Student Name: Christian Morgan, Derrick Davis, Theodore Petrides
+	File Name: style.css
+	Date: 9/27/22
+*/
+
+/* CSS reset */
+body, header, nav, main, footer, img, h1, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body and images */
+body {
+    background-color: #1E355E;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*Style rule for mobile viewpoint*/
+
+
+/* Style rules for header content */
+header h1 {
+    text-align: center;
+    color: #ff9900;
+    font-family: 'Barlow semi Condense', Arimo;
+    padding: 5%;
+    font-size: 3em;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #b3ecff;
+    border-bottom: 1px solid ;
+}
+
+nav ul {
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li {
+    font-size: 1em;
+    font-family: 'Barlow semi Condensed', 'Arimo';
+    font-weight: bold;
+    padding: 3%;
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    background-color: #fff;
+    font-family: 'Arimo', sans-serif;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #fff;
+    padding: 1% 0;
+}
